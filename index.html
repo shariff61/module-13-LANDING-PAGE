@@ -15,7 +15,7 @@
 
     <header class="container">
         <!-- nav start -->
-        <nav class="navbar navbar-expand-lg  bg-light">
+        <nav class="navbar navbar-expand-lg  bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Main logo of panda"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -26,9 +26,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="shoes">Shoes</a>
-                        <a class="nav-link" href="#">Backpack</a>
-                        <a class="nav-link">Subscribe</a>
+                        <a class="nav-link" href="#shoes">Shoes</a>
+                        <a class="nav-link" href="#backpack">Backpack</a>
+                        <a class="nav-link" href="#subscribe">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@
 
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active bg-info p-5  rounded-4">
+                    <div class="carousel-item active panda-bg-color p-5  rounded-4">
                         <div class="row">
                             <div class="col-md-7 d-flex align-items-center">
                                 <div>
@@ -49,8 +49,8 @@
                                         do amet sint. Velit officia consequat duis enim velit mollit.
                                         Exercitation veniam consequat sunt nostrud amet.
                                     </p>
-                                    <h1>$1200</h1>
-                                    <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                                    <h1 class="panda-bg-color">$1200</h1>
+                                    <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                                 class="fa-solid fa-arrow-right"></i></span></button>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item bg-info p-5  rounded-4">
+                    <div class="carousel-item panda-bg-color p-5  rounded-4">
                         <div class="row">
 
                             <div class="col-md-7 d-flex align-items-center">
@@ -70,8 +70,8 @@
                                         This is the best headphone in the world for people who just want to waste time
                                         in front of funky world.
                                     </p>
-                                    <h1>$420</h1>
-                                    <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                                    <h1 class="panda-bg-color">$420</h1>
+                                    <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                                 class="fa-solid fa-arrow-right"></i></span></button>
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                         </div>
 
                     </div>
-                    <div class="carousel-item bg-info p-5  rounded-4">
+                    <div class="carousel-item panda-bg-color p-5  rounded-4">
                         <div class="row">
                             <div class="col-md-7 d-flex align-items-center">
                                 <div>
@@ -93,8 +93,8 @@
                                         This is the best x-box in the world for people who just want to waste time in
                                         front of fake sports.
                                     </p>
-                                    <h1>$600</h1>
-                                    <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                                    <h1 class="panda-bg-color">$600</h1>
+                                    <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                                 class="fa-solid fa-arrow-right"></i></span></button>
                                 </div>
                             </div>
@@ -119,10 +119,10 @@
         </section>
         <!-- carousel end -->
     </header>
-    <main>
+    <main class="container my-5">
         <!-- categories details start -->
         <section>
-            <div class="container text-center my-5">
+            <div class="text-center my-5">
                 <div class="row g-3">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="p-3 border bg-danger rounded-4 d-flex justify-content-around align-items-center ">
@@ -151,7 +151,7 @@
         <!-- categories details end -->
 
         <!-- Shoes categories start -->
-        <section class="container my-5">
+        <section id="shoes" class="my-5">
             <h2 class="py-3">Shoes</h2>
             <!-- card group -->
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -167,7 +167,7 @@
 
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
 
@@ -183,7 +183,7 @@
                                 content.</p>
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
                     </div>
@@ -199,7 +199,7 @@
 
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
                     </div>
@@ -210,7 +210,7 @@
         <!-- Shoes categories end -->
 
         <!-- Backpack section start -->
-        <section class="container my-5">
+        <section class="my-5" id="backpack">
             <h2 class="py-3">Backpack</h2>
 
             <!-- bag cards -->
@@ -226,7 +226,7 @@
                                 height action.</p>
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
                     </div>
@@ -241,7 +241,7 @@
                                 content.</p>
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
                     </div>
@@ -256,7 +256,7 @@
                                 additional content. This content is a little bit longer</p>
                         </div>
                         <div class="p-3">
-                            <button class="btn btn-danger btn-lg">Buy Now <span class="mx-3"><i
+                            <button class="btn panda-bg-btn btn-lg">Buy Now <span class="mx-3"><i
                                         class="fa-solid fa-angles-right"></i></span></button>
                         </div>
                     </div>
@@ -265,10 +265,33 @@
         </section>
         <!-- Backpack section end -->
 
+        <!-- form section -->
+        <section class="container" id="subscribe">
+            <div style="height: 300px;" class=" d-flex align-items-center justify-content-center my-5 panda-bg-color">
+                <div>
+                    <h2>LET'S STAY IN TOUCH</h2>
+                    <p><small>Get updates on sales, specials and more</small></p>
+                    <form action="">
+
+
+                        <div class="pb-3">
+                            <input type="password" id="inputPassword6" class="form-control"
+                                aria-describedby="passwordHelpInline">
+                        </div>
+
+                        <button class="btn panda-bg-btn  d-inline-block" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
 
     </main>
+    <footer class="container text-center opacity-50">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
+
 
 
 
